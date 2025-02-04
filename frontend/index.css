@@ -1,0 +1,51 @@
+body {
+  background: rgb(3, 8, 5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  width: 300px;
+}
+input {
+  border: none;
+}
+input,
+button {
+  padding: 10px;
+  width: -webkit-fill-available;
+}
+button {
+  margin-bottom: 10px;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.nameEmail {
+  color: rgb(12, 12, 12);
+}
+
+.nameSenha {
+  color: rgb(14, 13, 13);
+}
+
+.imagem {
+  background: none;
+}
+
+.painel {
+  color:black;
+  background-color: black;
+}
+body {
+  background-image: url("file:///C:/Users/usuario/Desktop/Meu Projeto/top-20-databases.webp");
+  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  margin: 0; /* Remove margens */
+  height: 100vh; /* Altura da página igual à altura da tela */
+}
+
